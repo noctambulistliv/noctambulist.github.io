@@ -98,6 +98,7 @@ lt-tag {
   margin-bottom: 25px;
   padding-left: 20px;
   padding-right: 20px;
+  color: var(--darktext);
 }
 
 lt-tag i {
