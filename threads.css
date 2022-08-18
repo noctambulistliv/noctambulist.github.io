@@ -1,0 +1,112 @@
+
+/** thread one **/
+
+liv-thread {
+  display: block;
+  width: 70%;
+  max-width: 500px;
+  margin: 0px auto;
+  box-sizing: content-box;
+  background: var(--g2);
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(33,33,33,.05); 
+  position: relative; 
+  overflow: hidden;
+  padding-top: 100px;
+}
+
+lt-head {
+  font-family: var(--headerfont);
+  text-transform: lowercase;
+  font-size: 80px;
+  line-height: 80%;
+  width: calc(100% + 20px);
+  text-align: center;
+  text-align-last: center;
+  position: absolute; 
+  top: 0px; 
+  left:-10px; 
+    -webkit-text-fill-color: transparent;
+    background: var(--g5);
+    -webkit-background-clip: text;
+  display: flex; 
+  justify-content: center; 
+  align-items: flex-end;
+}
+
+
+
+lt-main {
+  position: relative; 
+  z-index: 2;
+  background: var(--t3);
+  text-align: justify; 
+  line-height: 200%;
+  padding: 50px;
+  display: block;
+  border-radius: 20px;
+  backdrop-filter: blur(5px);
+}
+
+lt-main u {
+     text-transform:uppercase;
+     font:700 11px var(--smallfont);
+     letter-spacing:1px;
+     border-bottom:1px dotted var(--bg4);
+     padding-bottom:2px;
+     text-decoration:none;
+     -webkit-text-fill-color: transparent;
+     background: var(--g5);
+     -webkit-background-clip: text;
+}
+
+lt-main b{
+    color:var(--c1);
+     font-size:110%;
+font-family: var(--accent);
+    font-weight: 700;
+}
+
+lt-main i{
+    color:var(--c3);
+    font-family: var(--accent);
+}
+
+lt-main highlight{
+background: var(--g3);
+  padding: 0px 5px;
+  border-radius: 4px;
+  -webkit-box-decoration-break: clone;
+/* margin-left: -5px;
+margin-right: -5px; */
+}
+
+lt-tag {
+  background: var(--g5);
+  padding: 10px;
+  margin-left: -50px; 
+  border-top-right-radius: 10px; 
+  border-bottom-right-radius: 10px;
+  font: 500 10px var(--smallfont);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  display: flex; 
+  align-items: center;
+  width: fit-content;
+  margin-bottom: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+lt-tag i {
+  color: var(--body);
+  font-size: 15px;
+  margin-right: 10px;
+  
+}
+
+lt-tag x:before {
+  content: 'tagged for ';
+}
