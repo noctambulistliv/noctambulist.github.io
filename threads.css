@@ -104,7 +104,7 @@ lt-tag {
 lt-tag i {
   font-size: 15px;
   margin-right: 10px;
-  
+  color: var(--darktext) !important;
 }
 
 lt-tag x:before {
